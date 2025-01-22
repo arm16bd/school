@@ -57,7 +57,7 @@ a {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 700px;
 
 }
 
@@ -71,23 +71,18 @@ nav ul li a {
   font-size: 1.2rem;
   font-weight: 600;
 }
-
 nav ul li:nth-child(1) a {
   color: #fea301;
 }
-
 nav ul li:nth-child(2) a {
   color: #01acfd;
 }
-
 nav ul li:nth-child(3) a {
   color: #05d4df;
 }
-
 nav ul li:nth-child(3) a {
   color: #5d58ef;
 }
-
 .btn {
   background-color: #fea301;
   ;
@@ -100,7 +95,6 @@ nav ul li:nth-child(3) a {
   border: none;
   outline: none;
 }
-
 .menu-btn {
   display: flex;
   gap: 10px;
@@ -137,7 +131,7 @@ nav ul li:nth-child(3) a {
 .hero_section .hero_left h1 {
   font-size: 3.5rem;
   font-weight: 700;
-  color: var(--gray);
+  color: #495560;
 }
 
 .hero_left {
@@ -169,14 +163,6 @@ nav ul li:nth-child(3) a {
   width: 100%;
 }
 
-
-
-
-
-
-
-
-
 .curriculum {
   width: 100%;
   height: auto;
@@ -205,8 +191,8 @@ nav ul li:nth-child(3) a {
 }
 
 .card {
-  width: 367.8px;
-  height: 476.78px;
+  width: 365px;
+  height: 475px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -227,21 +213,18 @@ nav ul li:nth-child(3) a {
 .card p {
   color: var(--gray);
 }
-
 .card1_btn {
   color: var(--sky);
 }
-
 .card2_btn {
   color: var(--orange);
 }
-
 .card3_btn {
   color: var(--purple);
 }
-
 .cars .card1 {
-  background: linear-gradient(180deg, #94d4ffa2 0%, rgba(255, 255, 255, 0.842) 40%),
+  background: linear-gradient(180deg, #94d4ffa2 0%,
+   rgba(255, 255, 255, 0.842) 40%),
     #ffffff;
   border: 1px solid #ddf5ff;
   box-shadow: inset 0px 0px 28px 1px rgba(0, 0, 0, 0.05);
@@ -249,15 +232,18 @@ nav ul li:nth-child(3) a {
 }
 
 .cars .card2 {
-  background: linear-gradient(180deg, #fff4dc 0%, rgba(255, 255, 255, 0) 40%),
+  background: linear-gradient(180deg, #fff4dc 0%,
+   rgba(255, 255, 255, 0) 40%),
     #ffffff;
   border: 1px solid #fff4dc;
-  box-shadow: inset 0px 0px 28px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0px 0px 28px 1px
+   rgba(0, 0, 0, 0.05);
   border-radius: 18px;
 }
 
 .cars .card3 {
-  background: linear-gradient(180deg, #eee1ff 0%, rgba(255, 255, 255, 0) 40%),
+  background: linear-gradient(180deg, #eee1ff 0%, 
+  rgba(255, 255, 255, 0) 40%),
     #ffffff;
   border: 01px solid #f2e8ff;
   box-shadow: inset 0px 0px 28px 1px rgba(0, 0, 0, 0.05);
@@ -283,7 +269,6 @@ nav ul li:nth-child(3) a {
 }
 .bottom_arrow button:hover{
   background-color:#fea1019f ;
-  transition: background .2s ease-in-out;
 }
 
 .bottom_arrow button i {
@@ -314,8 +299,8 @@ nav ul li:nth-child(3) a {
 }
 
 .story_1 {
-  width: 540.27px !important;
-  height: 606px;
+  width: 540px;
+  height: 600px;
   background: var(--white);
   border-radius: 10px;
   position: relative;
@@ -337,13 +322,13 @@ nav ul li:nth-child(3) a {
 
 .story_1 .card_text_section button {
   position: absolute;
-  height: 47.93px;
-  left: 38.35px;
-  right: 327.41px;
-  top: 314.14px;
+  height: 48px;
+  left: 38px;
+  right: 327px;
+  top: 314px;
 
   background: #3cd8e8;
-  border-radius: 47.9343px;
+  border-radius: 47px;
   border: none;
   color: var(--white);
 }
@@ -375,7 +360,6 @@ nav ul li:nth-child(3) a {
   border-radius: 10px 10px 0px 0px;
 }
 
-/* ajkfsdfkjsf */
 .story_card_box {
   display: flex;
   align-items: center;
@@ -392,17 +376,15 @@ nav ul li:nth-child(3) a {
 }
 
 .story_card button {
-  /* Background */
-
   position: absolute;
-  height: 38.35px;
-  left: 38.35px;
-  right: 78.14px;
-  top: 157.81px;
+  height: 38px;
+  left: 38px;
+  right: 78px;
+  top: 157px;
   border: none;
   color: var(--white);
   background: #95b226;
-  border-radius: 47.9343px;
+  border-radius: 47px;
 }
 
 .story_bottom_arrow {
@@ -488,20 +470,8 @@ footer {
 
 
 
+/* Start of the media queries for 576px */
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* for 576px */
 @media screen and (max-width: 576px) {
 
   .navebar {
@@ -649,8 +619,6 @@ footer {
   .footer_right {
     width: 100%;
     align-items: start;
-
-
   }
 }
 
